@@ -1,0 +1,6 @@
+[06-Apr-2021 06:57:07 UTC] PHP Warning:  unlink(/home/irpge67jnamu/public_html/img/popup_ads/): Is a directory in /home/irpge67jnamu/public_html/mgmtacc/api/popup_ads.php on line 25
+[06-Apr-2021 07:02:52 UTC] PHP Warning:  unlink(/home/irpge67jnamu/public_html/img/popup_ads/): Is a directory in /home/irpge67jnamu/public_html/mgmtacc/api/popup_ads.php on line 73
+[06-Apr-2021 07:03:10 UTC] PHP Warning:  unlink(/home/irpge67jnamu/public_html/img/popup_ads/): Is a directory in /home/irpge67jnamu/public_html/mgmtacc/api/popup_ads.php on line 73
+[06-Apr-2021 08:24:02 UTC] PHP Warning:  unlink(/home/irpge67jnamu/public_html/img/popup_ads/): Is a directory in /home/irpge67jnamu/public_html/mgmtacc/api/popup_ads.php on line 73
+[06-Apr-2021 08:25:22 UTC] PHP Warning:  unlink(/home/irpge67jnamu/public_html/img/popup_ads/): Is a directory in /home/irpge67jnamu/public_html/mgmtacc/api/popup_ads.php on line 73
+[06-Apr-2021 08:26:08 UTC] PHP Warning:  unlink(/home/irpge67jnamu/public_html/img/popup_ads/): Is a directory in /home/irpge67jnamu/public_html/mgmtacc/api/popup_ads.php on line 73
