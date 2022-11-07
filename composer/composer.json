@@ -1,0 +1,17 @@
+{
+    "name": "developer/composer",
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "johndoe@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.14",
+        "kreait/firebase-php": "^5.0",
+        "luokuncool/taobao-sdk-php": "^1.0",
+        "google/apiclient": "^2.0",
+        "phpoffice/phpexcel": "^1.8",
+        "khanamiryan/qrcode-detector-decoder": "1.0.5.2"
+    }
+}

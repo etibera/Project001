@@ -1,0 +1,180 @@
+[19-Jul-2021 17:40:39 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php:39
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(39): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(18): Checkout->get_cart_local_perstore('122', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.16/url/checkout.php(14): Checkout->checkoutDetails('', '122', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php on line 39
+[21-Jul-2021 14:32:26 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php:39
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(39): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(18): Checkout->get_cart_local_perstore('122', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.16/url/checkout.php(14): Checkout->checkoutDetails('', '122', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php on line 39
+[22-Jul-2021 05:36:31 Asia/Manila] PHP Warning:  Invalid argument supplied for foreach() in /home/irpge67jnamu/public_html/api/5.0.16/model/Banggood.php on line 113
+[22-Jul-2021 15:43:47 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php:39
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(39): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(18): Checkout->get_cart_local_perstore('null', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.16/url/checkout.php(14): Checkout->checkoutDetails('', 'null', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php on line 39
+[22-Jul-2021 18:49:10 Asia/Manila] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to): rafaelrull32@gmail in /home/irpge67jnamu/public_html/PHPMailer/src/PHPMailer.php:1146
+Stack trace:
+#0 [internal function]: PHPMailer\PHPMailer\PHPMailer->addAnAddress('to', 'rafaelrull32@gm...', 'rafael')
+#1 /home/irpge67jnamu/public_html/PHPMailer/src/PHPMailer.php(1105): call_user_func_array(Array, Array)
+#2 /home/irpge67jnamu/public_html/PHPMailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', 'rafaelrull32@gm...', 'rafael')
+#3 /home/irpge67jnamu/public_html/api/5.0.16/model/ForgotPassword.php(99): PHPMailer\PHPMailer\PHPMailer->addAddress('rafaelrull32@gm...', 'rafael')
+#4 /home/irpge67jnamu/public_html/api/5.0.16/url/auth.php(48): ForgotPassword->forgotPassword('rafaelrull32@gm...')
+#5 {main}
+  thrown in /home/irpge67jnamu/public_html/PHPMailer/src/PHPMailer.php on line 1146
+[23-Jul-2021 09:43:22 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php:39
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(39): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(18): Checkout->get_cart_local_perstore('4153', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.16/url/checkout.php(14): Checkout->checkoutDetails('', '4153', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php on line 39
+[24-Jul-2021 22:40:26 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php:39
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(39): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(18): Checkout->get_cart_local_perstore('4274', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.16/url/checkout.php(14): Checkout->checkoutDetails('', '4274', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php on line 39
+[26-Jul-2021 12:02:38 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php:39
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(39): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(18): Checkout->get_cart_local_perstore('4288', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.16/url/checkout.php(14): Checkout->checkoutDetails('', '4288', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php on line 39
+[26-Jul-2021 12:10:57 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php:39
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(39): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(18): Checkout->get_cart_local_perstore('4288', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.16/url/checkout.php(14): Checkout->checkoutDetails('', '4288', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php on line 39
+[26-Jul-2021 18:14:35 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[26-Jul-2021 18:14:54 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[26-Jul-2021 22:48:21 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[26-Jul-2021 22:48:24 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[26-Jul-2021 22:48:26 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[26-Jul-2021 22:48:36 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[26-Jul-2021 22:48:42 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[27-Jul-2021 12:52:35 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[27-Jul-2021 13:57:48 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[27-Jul-2021 13:57:50 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[27-Jul-2021 13:57:52 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[27-Jul-2021 13:57:53 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[27-Jul-2021 22:07:16 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 10:20:06 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:10:59 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:12:04 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:12:07 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:13:02 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:13:14 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:13:22 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:13:37 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:13:42 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:13:59 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:14:08 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:26:57 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:27:08 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:27:12 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:27:59 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:28:09 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:28:28 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:28:37 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:29:08 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:29:19 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:29:23 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:29:42 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:30:01 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:30:24 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:30:30 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 13:32:24 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 15:05:54 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 17:36:54 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 18:13:35 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 18:13:48 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 18:14:01 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 18:14:20 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 18:24:02 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 18:24:35 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 18:25:22 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 18:25:36 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 18:28:27 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 18:28:32 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 18:28:35 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 18:28:37 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[28-Jul-2021 18:28:39 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[29-Jul-2021 00:00:53 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[29-Jul-2021 13:51:45 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[29-Jul-2021 18:45:50 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[29-Jul-2021 18:45:57 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[29-Jul-2021 18:45:57 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 12:11:28 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 12:11:33 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 12:11:45 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 12:11:52 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 12:11:53 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 12:12:11 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 12:12:19 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 12:12:29 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 15:21:25 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php:39
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(39): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(18): Checkout->get_cart_local_perstore('4289', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.16/url/checkout.php(14): Checkout->checkoutDetails('', '4289', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php on line 39
+[30-Jul-2021 15:21:32 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php:39
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(39): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(18): Checkout->get_cart_local_perstore('4289', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.16/url/checkout.php(14): Checkout->checkoutDetails('', '4289', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php on line 39
+[30-Jul-2021 15:21:53 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php:39
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(39): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(18): Checkout->get_cart_local_perstore('4289', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.16/url/checkout.php(14): Checkout->checkoutDetails('', '4289', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php on line 39
+[30-Jul-2021 15:21:59 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php:39
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(39): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(18): Checkout->get_cart_local_perstore('4289', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.16/url/checkout.php(14): Checkout->checkoutDetails('', '4289', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php on line 39
+[30-Jul-2021 15:22:06 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php:39
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(39): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php(18): Checkout->get_cart_local_perstore('4289', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.16/url/checkout.php(14): Checkout->checkoutDetails('', '4289', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.16/model/Checkout.php on line 39
+[30-Jul-2021 16:23:57 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 16:24:04 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 16:24:08 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 16:24:14 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 16:24:29 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[30-Jul-2021 16:24:38 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097
+[01-Aug-2021 18:12:45 Asia/Manila] PHP Notice:  Undefined variable: findPRDBrandBycat in /home/irpge67jnamu/public_html/api/5.0.16/model/Product.php on line 1097

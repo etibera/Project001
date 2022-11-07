@@ -1,0 +1,85 @@
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 1px;
+  width: auto;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.paging-nav {
+  text-align: right;
+  padding-top: 2px;
+}
+
+.paging-nav a {
+  margin: auto 1px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1px 7px;
+  background: #91b9e6;
+  color: white;
+  border-radius: 3px;
+}
+
+.paging-nav .selected-page {
+  background: #187ed5;
+  font-weight: bold;
+}
+
+.paging-nav,
+#tableData {
+  width: 400px;
+  /*margin: 0 auto;*/
+  float: right;
+  font-family: Arial, sans-serif;
+}
+.ribbon {
+  width: 48%;
+  position: relative;
+  float: left;
+  margin-bottom: 30px;
+  background-size: cover;
+  text-transform: uppercase;
+  color: white;
+}
+.ribbon3 {
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 15px;
+    position: absolute;
+    left: -8px;
+    top: 20px;
+    background: red;
+    font-size: 80%;
+  }
+  .ribbon3:before, .ribbon3:after {
+    content: "";
+    position: absolute;
+  }
+  .ribbon3:before {
+    height: 0;
+    width: 0;
+    top: -8.5px;
+    left: 0.1px;
+    border-bottom: 9px solid black;
+    border-left: 9px solid transparent;
+  }
+  .ribbon3:after {
+    height: 0;
+    width: 0;
+    right: -17px;
+    border-top: 15px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 18px solid red;
+  
+
+

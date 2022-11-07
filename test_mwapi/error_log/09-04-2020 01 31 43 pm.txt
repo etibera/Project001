@@ -1,0 +1,6 @@
+PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\xampp\htdocs\peso\mwapi\model\Home.php:151
+Stack trace:
+#0 C:\xampp\htdocs\peso\mwapi\model\Home.php(151): PDOStatement->execute()
+#1 C:\xampp\htdocs\peso\mwapi\model\Home.php(54): Home->home_category_default('2')
+#2 C:\xampp\htdocs\peso\mwapi\_3.1.9\home.php(22): Home->home_category('2', 'null')
+#3 {main}

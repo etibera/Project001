@@ -1,0 +1,161 @@
+[30-Jun-2021 12:13:05 Asia/Manila] PHP Notice:  Undefined property: Auth::$connection in /home/irpge67jnamu/public_html/api/5.0.15/model/Auth.php on line 228
+[30-Jun-2021 12:13:05 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/irpge67jnamu/public_html/api/5.0.15/model/Auth.php:228
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.15/url/auth.php(33): Auth->insert_customer_view('web mobile')
+#1 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.15/model/Auth.php on line 228
+[30-Jun-2021 12:13:33 Asia/Manila] PHP Notice:  Undefined property: Auth::$connection in /home/irpge67jnamu/public_html/api/5.0.15/model/Auth.php on line 234
+[30-Jun-2021 12:13:33 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/irpge67jnamu/public_html/api/5.0.15/model/Auth.php:234
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.15/url/auth.php(33): Auth->insert_customer_view('web mobile')
+#1 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.15/model/Auth.php on line 234
+[30-Jun-2021 17:59:42 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php:52
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php(52): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php(31): Checkout->get_cart_local_perstore('1601', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.15/url/checkout.php(14): Checkout->checkoutDetails('', '1601', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php on line 52
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:30 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[02-Jul-2021 18:13:31 Asia/Manila] PHP Notice:  Undefined index: type in /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php on line 326
+[05-Jul-2021 13:59:53 Asia/Manila] PHP Notice:  Undefined index: platform in /home/irpge67jnamu/public_html/api/5.0.15/url/auth.php on line 33
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Warning:  Illegal string offset 'email' in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 47
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 47
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Warning:  Illegal string offset 'customer' in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 48
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 48
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Notice:  Undefined variable: shopname in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 51
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Warning:  Illegal string offset 'order_id' in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 51
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 51
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Warning:  Illegal string offset 'customer' in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 51
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 51
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Notice:  Undefined variable: data in /home/irpge67jnamu/public_html/include/email_template.php on line 201
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Warning:  Illegal string offset 'customer' in /home/irpge67jnamu/public_html/include/email_template.php on line 236
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/include/email_template.php on line 236
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Warning:  Illegal string offset 'shipping_address_1' in /home/irpge67jnamu/public_html/include/email_template.php on line 240
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/include/email_template.php on line 240
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Warning:  Illegal string offset 'telephone' in /home/irpge67jnamu/public_html/include/email_template.php on line 244
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/include/email_template.php on line 244
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Warning:  Illegal string offset 'email' in /home/irpge67jnamu/public_html/include/email_template.php on line 248
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/include/email_template.php on line 248
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Warning:  Illegal string offset 'email' in /home/irpge67jnamu/public_html/include/email_template.php on line 248
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/include/email_template.php on line 248
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Warning:  Illegal string offset 'order_id' in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 55
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 55
+[08-Jul-2021 15:01:48 Asia/Manila] PHP Notice:  Undefined variable: status_name in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 55
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Warning:  Illegal string offset 'email' in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 301
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 301
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Warning:  Illegal string offset 'customer' in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 302
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 302
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Notice:  Undefined variable: shopname in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 305
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Warning:  Illegal string offset 'order_id' in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 305
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 305
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Warning:  Illegal string offset 'customer' in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 305
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 305
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Warning:  Illegal string offset 'customer' in /home/irpge67jnamu/public_html/include/email_template.php on line 236
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/include/email_template.php on line 236
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Warning:  Illegal string offset 'shipping_address_1' in /home/irpge67jnamu/public_html/include/email_template.php on line 240
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/include/email_template.php on line 240
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Warning:  Illegal string offset 'telephone' in /home/irpge67jnamu/public_html/include/email_template.php on line 244
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/include/email_template.php on line 244
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Warning:  Illegal string offset 'email' in /home/irpge67jnamu/public_html/include/email_template.php on line 248
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/include/email_template.php on line 248
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Warning:  Illegal string offset 'email' in /home/irpge67jnamu/public_html/include/email_template.php on line 248
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/include/email_template.php on line 248
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Warning:  Illegal string offset 'order_id' in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 309
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 309
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Notice:  Undefined variable: status_name in /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php on line 309
+[08-Jul-2021 15:01:54 Asia/Manila] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/irpge67jnamu/public_html/PHPMailer/src/PHPMailer.php:1081
+Stack trace:
+#0 /home/irpge67jnamu/public_html/PHPMailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', '', '')
+#1 /home/irpge67jnamu/public_html/api/5.0.15/model/Mail.php(329): PHPMailer\PHPMailer\PHPMailer->addAddress('', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php(12): Mail->SendEmailallstoreCustomer('0', '1980', '')
+#3 /home/irpge67jnamu/public_html/api/5.0.15/url/checkout.php(11): Checkout->sendOrderEmail('0', '1980')
+#4 {main}
+  thrown in /home/irpge67jnamu/public_html/PHPMailer/src/PHPMailer.php on line 1081
+[09-Jul-2021 04:35:03 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php:52
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php(52): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php(31): Checkout->get_cart_local_perstore('4156', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.15/url/checkout.php(14): Checkout->checkoutDetails('', '4156', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php on line 52
+[09-Jul-2021 10:31:37 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php:52
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php(52): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php(31): Checkout->get_cart_local_perstore('1601', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.15/url/checkout.php(14): Checkout->checkoutDetails('', '1601', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php on line 52
+[11-Jul-2021 20:14:01 Asia/Manila] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/irpge67jnamu/public_html/api/5.0.15/model/Banggood.php on line 318
+[14-Jul-2021 08:40:45 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's%'  OR pp.name LIKE '%CPU'%') GROUP BY pp.product_id, pp.type, pp.name ORDER BY' at line 3 in /home/irpge67jnamu/public_html/api/5.0.15/model/Product.php:717
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.15/model/Product.php(717): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.15/model/Home.php(708): Product->get_products(Array)
+#2 /home/irpge67jnamu/public_html/api/5.0.15/url/home.php(30): Home->search_products('search')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.15/model/Product.php on line 717
+[15-Jul-2021 12:00:06 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php:52
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php(52): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php(31): Checkout->get_cart_local_perstore('3979', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.15/url/checkout.php(14): Checkout->checkoutDetails('', '3979', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php on line 52
+[18-Jul-2021 12:33:04 Asia/Manila] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/irpge67jnamu/public_html/api/5.0.15/model/Banggood.php on line 318
+[18-Jul-2021 17:20:37 Asia/Manila] PHP Notice:  Undefined index: view_image in /home/irpge67jnamu/public_html/api/5.0.15/model/Banggood.php on line 199
+[18-Jul-2021 17:20:37 Asia/Manila] PHP Notice:  Undefined index: view_image in /home/irpge67jnamu/public_html/api/5.0.15/model/Banggood.php on line 199
+[18-Jul-2021 17:20:37 Asia/Manila] PHP Notice:  Undefined index: view_image in /home/irpge67jnamu/public_html/api/5.0.15/model/Banggood.php on line 199
+[19-Jul-2021 11:54:13 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                                            group by oc.seller_id' at line 5 in /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php:52
+Stack trace:
+#0 /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php(52): PDOStatement->execute()
+#1 /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php(31): Checkout->get_cart_local_perstore('1601', '')
+#2 /home/irpge67jnamu/public_html/api/5.0.15/url/checkout.php(14): Checkout->checkoutDetails('', '1601', '0.00')
+#3 {main}
+  thrown in /home/irpge67jnamu/public_html/api/5.0.15/model/Checkout.php on line 52
